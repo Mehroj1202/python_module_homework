@@ -11,3 +11,5 @@ def round_to_nearest_integer(number):
     Returns:
         int: The nearest integer.
     """
+    return round(number)
+print(round_to_nearest_integer(3.7))

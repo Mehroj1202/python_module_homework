@@ -1,5 +1,5 @@
 # Calculate the factorial of a number
-import math
+from math import factorial
 
 def calculate_factorial(number):
     """
@@ -11,3 +11,5 @@ def calculate_factorial(number):
     Returns:
         int: The factorial of the given number.
     """
+    return factorial(number)
+print(calculate_factorial(5))

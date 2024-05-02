@@ -12,3 +12,5 @@ def calculate_logarithm(number, base):
     Returns:
         float: The logarithm of the number to the specified base.
     """
+    return math.log(number,base)
+print(calculate_logarithm(8,2))

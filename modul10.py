@@ -12,3 +12,5 @@ def calculate_power(base, exponent):
     Returns:
         float: The result of raising the base to the exponent.
     """
+    return base**exponent
+print(calculate_power(2,8))

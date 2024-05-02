@@ -11,3 +11,5 @@ def convert_radians_to_degrees(radians):
     Returns:
         float: The angle in degrees.
     """
+    return math.degrees(radians)
+print(convert_radians_to_degrees(45))

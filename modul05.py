@@ -11,3 +11,5 @@ def calculate_exponential(number):
     Returns:
         float: The exponential value of the number.
     """
+    return (math.e)**number
+print(calculate_exponential(2))
